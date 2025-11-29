@@ -1,0 +1,46 @@
+*{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+body{
+    width: 100%;
+}
+.header{
+    padding-top: 2%;
+    width: 100%;
+    display: flex; 
+}
+.Content{
+    width: 100%;
+    display: flex; 
+    flex-direction: row-reverse;
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+}
+.text{
+    width: 40%;
+    padding-left: 3%;
+    padding-right: 2%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Img1{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Secon_Content{
+    width: 100%;
+    display: flex; 
+    margin-top: 1.5%;
+    padding-top: 2%;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
